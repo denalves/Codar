@@ -1,0 +1,115 @@
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container header{
+    margin-top: 60px;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+header ul li{
+    padding: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+header ul li .button-red{
+    background: #D6000D;
+    padding: 7px 37px;
+    border-radius: 10px;
+}
+
+.logo{
+    font-size: 50px;
+    position: absolute;
+    left: 108px;
+    top: 34px;
+}
+.image img{
+    width: 360px;
+}
+.container .main-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
+.container .main-content .text{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+.container .main-content .text span{
+   display: block;
+   font-size: 50px;
+   color: #D6000D;
+}
+.container .main-content button{
+    width: 70%;
+    height: 47px; 
+    font-size: 20px;
+    margin-top: 36px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    background: #D6000D;
+ }
+ .services{
+     height:  70vh;
+ }
+
+.service-box{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.container .services .service-box ul li {
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .services .service-box ul li i {
+    padding: 0 7px;
+    color: #D6000D;
+}
+
+.container .services .call {
+   margin-left: 16%;
+}
+.container .services .call h3 {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.container .services .call input {
+    width: 170px;
+   padding: 13px 15px;
+   font-size: 15px;
+   border-radius: 8px;
+   border: none;
+   font-weight: bold;
+ }
+.container .services .call input[type=text] {
+    background: #ccc;
+ }
+
+.container .services .call input[type=button] {
+    background: #D6000D;
+    color: #fff;
+}
+
