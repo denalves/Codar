@@ -113,3 +113,101 @@ header ul li .button-red{
     color: #fff;
 }
 
+.container .clients{
+    display: flex;
+    justify-content: center;
+}
+
+.user{
+   margin: 10px 20px 0 0;
+
+}
+.container .clients .card p {
+    font-size: .75rem;
+    line-height: normal;
+}
+
+.container .clients .card h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.container .clients .card h5 {
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: .9 rem;
+}
+
+.container .clients .card {
+    padding: 20px;
+    background: #ccc;
+    margin: 15px;
+    width: 50%;
+    display: flex;
+    border-radius: 20px;
+}
+
+.container-footer{
+    height: 30vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.container-footer .marca h3{
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.container-footer .marca span{
+    font-size: 1rem;
+  
+}
+
+.container-footer .marca{
+    width: 25%;
+    padding: 0 20px;
+}
+.container-footer .sobre{
+    width: 25%;
+    padding: 0 20px;
+}
+.container-footer .contato{
+    width: 25%;
+    padding: 0 20px;
+}
+.container-footer .redes-sociais{
+    width: 25%;
+    
+}
+.container-footer .sobre h3{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.container-footer .sobre span{
+    font-size: 1rem;  
+}
+
+.container-footer .contato h3{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.container-footer .contato span{
+    display: block;
+    font-size: 1rem;  
+    line-height: 2rem;
+}
+
+.container-footer .redes-sociais h3{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.container-footer .redes-sociais i{
+    margin: 0px 10px 0 0;
+}
